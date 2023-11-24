@@ -46,6 +46,7 @@ public class StringProcessor {
                         break;
                 }
                 lastOperator = currentChar;
+
                 n = 0;
             }
         }

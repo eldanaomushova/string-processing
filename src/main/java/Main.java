@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         StringProcessor stringProcessor = new StringProcessor();
         String password = "Eldana8.";
+
         String sentence = "Press Shift twice to open the Search Everywhere dialog and type show whitespaces";
         boolean isPasswordStrong = stringProcessor.isStrongPassword(password);
         System.out.println("Is password Strong? " + isPasswordStrong);

@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class StringProcessorTest {
     private StringProcessor stringProcessor;
+
     //setting up
     @BeforeEach
     void setUp() {
